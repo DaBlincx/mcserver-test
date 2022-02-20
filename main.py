@@ -2,6 +2,8 @@ from mcstatus import MinecraftServer
 import time
 import serverconfig
 
+respconf = 0
+
 def minute(min):
     m = 60*min
     return m
@@ -35,12 +37,22 @@ def getSvInfo(sv):
     pllg.write(str(status.players.online) + "/" + str(status.players.max) + " - " + formatted_time + "\n")
     pllg.close()
     print(fmsg+"\n")
-    time.sleep(minute(5))
+    time.sleep(minute(2.5))
 
 while True:
     try:
         getSvInfo(serverconfig.server)
     except TimeoutError:
-        print("timed out")
+        print("Timed out\nRetrying in 2 seconds.")
+        time.sleep(2)
     except IOError:
-        print("didnt respond bruh")
+        respconf + 1
+        if respconf == 32:
+            print("didnt respind after 32 requests. retrying in one minute!")
+            time.sleep(2)
+            mine = 60
+            for i in range(0,60):
+                print(str(mine)+" seconds")
+                mine-=1
+                time.sleep(1)
+            print("\n\nRetrying now!\n\n")
