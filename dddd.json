@@ -1,0 +1,69 @@
+{
+    "result": [
+        {
+            "type": "video",
+            "id": "dQw4w9WgXcQ",
+            "title": "Rick Astley - Never Gonna Give You Up (Official Music Video)",
+            "publishedTime": "12 years ago",
+            "duration": "3:33",
+            "viewCount": {
+                "text": "1,154,209,163 views",
+                "short": "1.1B views"
+            },
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAfut6ib46TKYWnNm5PxBrcX8HLWg",
+                    "width": 360,
+                    "height": 202
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRxusbm2_TGTnDWEIhBTYW2cUQkw",
+                    "width": 720,
+                    "height": 404
+                }
+            ],
+            "richThumbnail": {
+                "url": "https://i.ytimg.com/an_webp/dQw4w9WgXcQ/mqdefault_6s.webp?du=3000&sqp=CNiFypAG&rs=AOn4CLAK9UyITDRdLDzDJtIRrNUwmoGSgg",
+                "width": 320,
+                "height": 180
+            },
+            "descriptionSnippet": [
+                {
+                    "text": "The official video for \u201c"
+                },
+                {
+                    "text": "Never Gonna Give You Up",
+                    "bold": true
+                },
+                {
+                    "text": "\u201d by Rick Astley \u201c"
+                },
+                {
+                    "text": "Never Gonna Give You Up",
+                    "bold": true
+                },
+                {
+                    "text": "\u201d was a global smash on its release in\u00a0..."
+                }
+            ],
+            "channel": {
+                "name": "Rick Astley",
+                "id": "UCuAXFkgsw1L7xaCfnd5JJOw",
+                "thumbnails": [
+                    {
+                        "url": "https://yt3.ggpht.com/BbWaWU-qyR5nfxxXclxsI8zepppYL5x1agIPGfRdXFm5fPEewDsRRWg4x6P6fdKNhj84GoUpUI4=s88-c-k-c0x00ffffff-no-rj",
+                        "width": 68,
+                        "height": 68
+                    }
+                ],
+                "link": "https://www.youtube.com/channel/UCuAXFkgsw1L7xaCfnd5JJOw"
+            },
+            "accessibility": {
+                "title": "Rick Astley - Never Gonna Give You Up (Official Music Video) by Rick Astley 12 years ago 3 minutes, 33 seconds 1,154,209,163 views",
+                "duration": "3 minutes, 33 seconds"
+            },
+            "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "shelfTitle": null
+        }
+    ]
+}
